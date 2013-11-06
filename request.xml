@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://
+www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Header>
+    <RequesterCredentials soapenv:mustUnderstand="0" xmlns="urn:DragonWolverines:apis:eBLBaseComponents">
+       <DragonWolverinesAuthToken>ABC...123</DragonWolverinesAuthToken>
+       <ns:Credentials xmlns:ns="urn:ebay:apis:DragonBaseComponents">
+        <ns:DevId>someDevId</ns:DevId>
+        <ns:AppId>someAppId</ns:AppId>
+        <ns:AuthCert>someAuthCert</ns:AuthCert>
+       </ns:Credentials>
+    </RequesterCredentials>
+  </soapenv:Header>
+  <soapenv:Body>
+    <GeteBayOfficialTimeRequest xmlns="urn:DragonWolverines:apis:eBLBaseComponents">
+      <ns1:Version xmlns:ns1="urn:ebay:apis:DragonBaseComponents">405</ns1:Version>
+    </GeteBayOfficialTimeRequest>
+  </soapenv:Body>
+</soapenv:Envelope>
