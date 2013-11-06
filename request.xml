@@ -2,7 +2,7 @@
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://
 www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <soapenv:Header>
-    <RequesterCredentials soapenv:mustUnderstand="0" xmlns="urn:DragonWolverines:apis:eBLBaseComponents">
+    <RequesterCredentials soapenv:mustUnderstand="0" xmlns="urn:DragonWolverines:apis:DragonBaseComponents">
        <DragonWolverinesAuthToken>ABC...123</DragonWolverinesAuthToken>
        <ns:Credentials xmlns:ns="urn:ebay:apis:DragonBaseComponents">
         <ns:DevId>someDevId</ns:DevId>
@@ -12,8 +12,8 @@ www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     </RequesterCredentials>
   </soapenv:Header>
   <soapenv:Body>
-    <GeteBayOfficialTimeRequest xmlns="urn:DragonWolverines:apis:eBLBaseComponents">
-      <ns1:Version xmlns:ns1="urn:ebay:apis:DragonBaseComponents">405</ns1:Version>
-    </GeteBayOfficialTimeRequest>
+    <GetDragonWolverinesRequest xmlns="urn:DragonWolverines:apis:eBLBaseComponents">
+      <ns1:Version xmlns:ns1="urn:DragonWolverines:apis:DragonBaseComponents">405</ns1:Version>
+    </GetDragonWolverinesRequest>
   </soapenv:Body>
 </soapenv:Envelope>
