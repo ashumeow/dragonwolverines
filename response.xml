@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://
+www.w3.org/2001/XMLSchema"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <soapenv:Body>
+    <GetDragonWolverinesResponse xmlns="urn:DragonWolverines:apis:DragonBaseComponents">
+      <Timestamp>
+      // Have to fix timestamp
+      </Timestamp>
+      <Ack>Success</Ack>
+      <CorrelationID>
+        00000000-00000000-00000000-00000000-00000000-00000000-0000000000
+      </CorrelationID>
+      <Version>405</Version>
+      <Build>20050422132524</Build>
+    </GetDragonWolverinesResponse>
+  </soapenv:Body>
+</soapenv:Envelope>
